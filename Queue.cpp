@@ -91,10 +91,27 @@ class Queues
             {
                 while (FRONT_posisition <= REAR_posisition)
                 {
-                    cout << queue_array[FRONT_posisition] << " ";
+                    cout << queue_array[FRONT_posisition] << "  ";
                     FRONT_posisition++;
                 }
+
+                FRONT_posisition = 0;
+
+                // Iterasi dari awal array hingga REAR
+                while (FRONT_posisition <= REAR_posisition)
+                {
+                    cout << queue_array[FRONT_posisition] << "  ";
+                    FRONT_posisition++;
+                }
+                cout << endl;
 
             }
         }
 };
+
+int main()
+{
+    Queues q;
+    char ch;
+
+}
