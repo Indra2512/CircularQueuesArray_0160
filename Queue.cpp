@@ -120,6 +120,7 @@ int main()
         {
             cout << "Menu" << endl;
             cout << "1. Implement insert operation" << endl;
+            cout << "2. Implement delete peration" << endl;
         }
     
     }
