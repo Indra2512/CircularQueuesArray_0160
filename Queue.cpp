@@ -25,7 +25,7 @@ class Queues
             // 1. Cek apakah antrian penuh
             if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR + 1))
             {
-                cout << "\nQueue overflow\n": //1.a
+                cout << "\nQueue overflow\n"; //1.a
                 return; //1. b
             }
 
@@ -54,6 +54,9 @@ class Queues
                 cout << "Queue underflow\n";
                 return;
             }
+            cout << "\nThe element deleted from the queue is: " << queue_array[FRONT] << "\n";
+
+           
         }
 
 };
