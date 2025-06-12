@@ -84,6 +84,12 @@ class Queues
                 return;
             }
 
-         
+            cout << "\nElements in the queue are...\n";
+
+            //jika FRONT_posisition <= REAR_posisition, iterasi dari FRONT hingga REAR
+            if (FRONT_posisition <= REAR_posisition)
+            {
+                
+            }
         }
 };
