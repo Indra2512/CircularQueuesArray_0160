@@ -118,7 +118,8 @@ int main()
     {
         try
         {
-           
+            cout << "Menu" << endl;
+            
         }
     
     }
