@@ -35,6 +35,10 @@ class Queues
                 FRONT = 0; //2. a
                 REAR = 0; //2. b
             }
-           
+            else
+            {
+                //jika REAR berada di posisi terakhir array, kembali ke awal array
+                if (REAR == max - 1)
+            }
         }
 };
