@@ -122,6 +122,7 @@ int main()
             cout << "1. Implement insert operation" << endl;
             cout << "2. Implement delete peration" << endl;
             cout << "3. Display values" << endl;
+            cout << "4. Exit" << endl;
         }
     
     }
